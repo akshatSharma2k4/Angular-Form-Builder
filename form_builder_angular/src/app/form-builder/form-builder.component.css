@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+input.frm,
+select {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input.frm:focus,
+select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.tbl {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tbl th,
+.tbl td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.tbl th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.tbl tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.tbl tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+#generatedForm {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#generatedForm h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+#generatedForm pre {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap; 
+}
+
